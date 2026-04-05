@@ -1,0 +1,49 @@
+{
+	"name": "open-reusable-sample",
+	"displayName": "Open a reusable",
+	"description": "Open a variable or reusable referenced in the selected text",
+	"version": "0.0.1",
+	"publisher": "vscode-samples",
+	"repository": "https://github.com/Microsoft/vscode-extension-samples/open-reusable-sample",
+	"engines": {
+		"vscode": "^1.100.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "open-reusable",
+				"title": "Open reusable file"
+			},
+			{
+				"command": "copy-reusable",
+				"title": "Copy the reusable at the cursor position"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "open-reusable",
+				"key": "ctrl+alt+o",
+				"mac": "ctrl+cmd+o"
+			},
+			{
+				"command": "copy-reusable",
+				"key": "ctrl+alt+c",
+				"mac": "ctrl+cmd+c"
+			}
+		]
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@eslint/js": "^9.13.0",
+		"@stylistic/eslint-plugin": "^2.9.0",
+		"@types/vscode": "^1.100.0",
+		"eslint": "^9.13.0",
+		"typescript": "^5.9.2",
+		"typescript-eslint": "^8.39.0"
+	}
+}
