@@ -312,6 +312,7 @@ export const samples: Sample[] = [
 	{ description: 'mcp-extension-sample', excludeFromReadme: true, path: 'mcp-extension-sample', guide: null, apis: [], contributions: [] },
 	{ description: 'nodefs-provider-sample', excludeFromReadme: true, path: 'nodefs-provider-sample', guide: null, apis: [], contributions: [] },
 	{ description: 'notebook-format-code-action-sample', excludeFromReadme: true, path: 'notebook-format-code-action-sample', guide: null, apis: [], contributions: [] },
+	{ description: 'open-reusable-sample', excludeFromReadme: true, path: 'open-reusable-sample', guide: null, apis: [], contributions: [] },
 	{ description: 'notebook-renderer-react-sample', excludeFromReadme: true, path: 'notebook-renderer-react-sample', guide: null, apis: [], contributions: [] },
 	{ description: 'notebook-serializer-sample', excludeFromReadme: true, path: 'notebook-serializer-sample', guide: null, apis: [], contributions: [] },
 	{ description: 'progress-sample', excludeFromReadme: true, path: 'progress-sample', guide: null, apis: [], contributions: [] },
