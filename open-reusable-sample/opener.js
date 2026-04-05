@@ -110,7 +110,7 @@ function findLineNumberOfVariable(variableName) {
 		if (matchResultArray) {
 			lineNumberOfVariable = parseLine + 1;
 			moveCursor(currentCursorLineNumber, lineNumberOfVariable);
-			centralizar(lineNumberOfVariable);
+			centerLine(lineNumberOfVariable);
 			return;
 		}
 	}
@@ -127,7 +127,7 @@ function findLineNumberOfVariable(variableName) {
 	}
 }
 
-function centralizar(lineToCenter) {
+function centerLine(lineToCenter) {
 	// Put the current line near the centre of the visible area
 	vscode.commands.executeCommand('revealLine', {
 		lineNumber: lineToCenter,
