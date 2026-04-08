@@ -205,7 +205,7 @@ export class Controller implements IController {
 			return true;
 		}
 
-		return true;
+		return false;
 	}
 
 	private _interpretNormalModeInput(editor: TextEditor, modifierKeys: ModifierKeys): Thenable<ITypeResult> {
