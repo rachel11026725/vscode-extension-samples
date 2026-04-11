@@ -215,7 +215,7 @@ class CatCodingPanel {
 				<h1 id="lines-of-code-counter">0</h1>
 				<div class="menu" data-vscode-context='{"webviewSection": "menu", "countOfThing": 123}'>
 					<h1>Menu</h1>
-					<div class="nav" data-vscode-context='{"webviewSection: "nav", "preventDefaultContextMenuItems": true}'>
+					<div class="nav" data-vscode-context='{"webviewSection": "nav", "preventDefaultContextMenuItems": true}'>
 						NavNavnavNav22
 					</div>
 				</div>
